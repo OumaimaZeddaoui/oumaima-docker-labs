@@ -1,0 +1,8 @@
+﻿version: 1.0.9
+
+endpoints:
+  openai:
+    type: ollama
+    baseURL: http://ollama:11434
+    models:
+      - qwen:3-4b
